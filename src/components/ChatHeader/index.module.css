@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: var(--border);
+  background-color: #10a37f;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  border-radius: 20px;
+}

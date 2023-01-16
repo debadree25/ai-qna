@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  padding: 10px;
+  border-top: var(--border);
+  background: #eee;
+  border-radius: 20px;
+}
+
+.container * {
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  font-size: 1em;
+}
+
+.input {
+  flex: 1;
+  background: #ddd;
+}
+
+.btn {
+  margin-left: 10px;
+  background: rgb(0, 196, 80);
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.23s;
+}
+
+.btn:hover {
+  background: rgb(0, 180, 50);
+}
